@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/currTemp"
+        android:layout_width="288dp"
+        android:layout_height="67dp"
+        android:gravity="center"
+        android:scaleX="1.2"
+        android:scaleY="1.2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:typeface="serif"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.212" />
+
+    <TextView
+        android:id="@+id/Title"
+        android:layout_width="290dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginBottom="619dp"
+        android:elegantTextHeight="false"
+        android:gravity="center"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        android:text="@string/title"
+        android:typeface="serif"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Temperature Application" />
+
+    <TextView
+        android:id="@+id/History"
+        android:layout_width="187dp"
+        android:layout_height="66dp"
+        android:gravity="center"
+        android:scaleX="1.2"
+        android:scaleY="1.2"
+        android:text="@string/history"
+        android:typeface="serif"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.526"
+        tools:text="History" />
+
+    <TextView
+        android:id="@+id/hist1"
+        android:layout_width="180dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="439dp"
+        android:layout_marginBottom="254dp"
+        android:typeface="serif"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/hist2"
+        android:layout_width="180dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="479dp"
+        android:layout_marginBottom="214dp"
+        android:typeface="serif"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/hist3"
+        android:layout_width="180dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="519dp"
+        android:layout_marginBottom="174dp"
+        android:typeface="serif"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/hist4"
+        android:layout_width="180dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="559dp"
+        android:layout_marginBottom="134dp"
+        android:typeface="serif"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/hist5"
+        android:layout_width="180dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="599dp"
+        android:layout_marginBottom="94dp"
+        android:typeface="serif"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/notice"
+        android:layout_width="190dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="492dp"
+        android:gravity="center"
+        android:scaleX=".8"
+        android:scaleY=".8"
+        android:text="@string/updated_every_30_seconds"
+        android:typeface="serif"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/currTemp"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
